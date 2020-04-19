@@ -1,3 +1,51 @@
+commit 9ad7b495c78086100e7c2a2eba267cc0188c23c0
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 12:05:26 2020 -0400
+
+    Cleaned up conditionals logic
+
+commit 81c487920147d371d17c2cbd706ad9448c1458a7
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 12:03:34 2020 -0400
+
+    Cleaned up distro specific tasks
+    
+    - Cleaned up conditions, etc.
+
+commit aa15314a761240104e4ac6581d60d7f6998b499c
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 12:00:54 2020 -0400
+
+    Updated Molecule Vagrant boxes for testing
+    
+    - We need to test against CentOS, Fedora, and Ubuntu
+    - Added my Vagrant boxes to ensure that we know what is included, etc.
+    - This ensures we can at least test these distros locally
+
+commit 5ab2bb04875ab784f9d55106cecbb7da19fdd2ff
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 12:00:23 2020 -0400
+
+    Updated repo info
+
+commit 9f97746b05cdf822336eb4f5ad7ca8eb84985b44
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 11:59:56 2020 -0400
+
+    Added example playbook
+
+commit 3f326587e69da25d25c1537730fd638fd51ddfb0
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 11:59:44 2020 -0400
+
+    Updated Galaxy meta info
+
+commit 7fd5a8eec9f4b5110929862056ab88c4db3f14de
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Apr 19 01:59:29 2020 -0400
+
+    Only doing a Molecule lint at this time
+
 commit 7e2a076b0a8155015fd21502db860fa89a2114b3
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Sun Apr 19 01:44:38 2020 -0400
